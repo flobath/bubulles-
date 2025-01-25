@@ -8,8 +8,10 @@ public class Player : MonoBehaviour
     private float _speed = 3.5f;
     private float _horizontalInput;
     private float _verticalInput;
-    private Rigidbody2D rb2D;
     private bool _inSafeZone = false;
+    
+    private Rigidbody2D rb2D;
+    private SpriteRenderer sprite_rd;
 
     public float health = 100.0f;
     public float depletion_coef = 2f;
@@ -18,6 +20,7 @@ public class Player : MonoBehaviour
     void Awake()
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
+        sprite_rd = gameObject.GetComponent<SpriteRenderer>();
     }
 
     void Start()
@@ -34,6 +37,11 @@ public class Player : MonoBehaviour
         _horizontalInput = Input.GetAxis("Horizontal");
         _verticalInput = Input.GetAxis("Vertical");
 
+        if (_horizontalInput > 0) {
+            sprite_rd.flipX = true;
+        } else if (_horizontalInput < 0) {
+            sprite_rd.flipX = false;
+        }
         Vector2 direction = new Vector2(_horizontalInput * _speed, _verticalInput * _speed);
         rb2D.MovePosition(rb2D.position + direction * Time.fixedDeltaTime);
     }
