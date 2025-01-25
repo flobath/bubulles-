@@ -9,10 +9,19 @@ public class Player : MonoBehaviour
     private float _horizontalInput;
     private float _verticalInput;
     private Rigidbody2D rb2D;
+    private bool _inSafeZone = false;
+
+    public float health = 100.0f;
+    public float depletion_coef = 2f;
+    public float increase_coef = 3f;
 
     void Awake()
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
+    }
+
+    void Start()
+    {
     }
 
     void FixedUpdate()
@@ -29,11 +38,32 @@ public class Player : MonoBehaviour
         rb2D.MovePosition(rb2D.position + direction * Time.fixedDeltaTime);
     }
 
-    void Start()
+    void OnTriggerEnter2D(Collider2D collider)
     {
+        if (collider.gameObject.CompareTag("SafeZone")) {
+            _inSafeZone = true;
+        }
     }
 
-    void Update()
+    void OnTriggerExit2D(Collider2D collider)
     {
+        if (collider.gameObject.CompareTag("SafeZone")) {
+            _inSafeZone = false;
+        }
     }
+
+    void Update ()
+    {   
+        if (_inSafeZone) {
+            if (health >= 100) {
+                health = 100;
+            } else {
+                health -= increase_coef * Time.deltaTime;
+            }
+        } else {
+            health -= depletion_coef * Time.deltaTime;
+        }
+
+        Debug.Log(health);
+    }        
 }
