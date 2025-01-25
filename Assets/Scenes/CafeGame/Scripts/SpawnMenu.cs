@@ -8,11 +8,15 @@ public class SpawnMenu : MonoBehaviour
     [SerializeField] private List<int> _width, _height;
     [SerializeField] private Tile _tilePrefab;
     [SerializeField] private List<string> _tileNames;
+    protected List<int> _goodAnswer = new List<int>();
     protected List<GameObject> _tiles = new List<GameObject>();
 
     public void GenerateGrid() {
         foreach (var tile in _tiles) {
             Destroy(tile);
+        }
+        if (_width.Count == 0) {
+            return;
         }
         int width = _width[0];
         int height = _height[0];
@@ -37,5 +41,14 @@ public class SpawnMenu : MonoBehaviour
                 _tiles.Add(SpawnedTile.gameObject);
             }
         }
+        _goodAnswer.Add(0);
+    }
+
+    public void SetActive(bool pActive) {
+        gameObject.SetActive(pActive);
+    }
+
+    public List<int> GetGoodAnswer() {
+        return _goodAnswer;
     }
 }
