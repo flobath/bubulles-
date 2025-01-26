@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      anxiety_level_0: 5044665212784897073
+      anxiety_level_1: 8913489934710218133
+      anxiety_level_10: -6542108362175988547
+      anxiety_level_11: -5833144155005376904
+      anxiety_level_2: 4157709649441162749
+      anxiety_level_3: -6034306456381572685
+      anxiety_level_4: -6101757867176984947
+      anxiety_level_5: -9115836645981582072
+      anxiety_level_6: 6361627474039944420
+      anxiety_level_7: -5029640601546598630
+      anxiety_level_8: -6272300817183463200
+      anxiety_level_9: 8004535995883659612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

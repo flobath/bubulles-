@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      El baristo_0: -3545073877343962784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
