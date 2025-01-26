@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 28a751fbdb8a8c447b6e7e51b26e860c
+guid: 3c1631b9a3d47084387c3479f46fe3fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4608783753895669220
-    second: barista_0
+      213: -3545073877343962784
+    second: El baristo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barista_0
+      name: El baristo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 204
-        height: 474
+        width: 2970
+        height: 1620
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c12157e189f4a00c0800000000000000
-      internalID: -4608783753895669220
+      spriteID: 0697566571e5dcec0800000000000000
+      internalID: -3545073877343962784
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      barista_0: -4608783753895669220
+      El baristo_0: -3545073877343962784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
