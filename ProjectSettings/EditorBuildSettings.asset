@@ -9,7 +9,11 @@ EditorBuildSettings:
     path: Assets/CafeScene/CafeScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/CafeScene/CafeGame/CafeGame.unity
+=======
+    path: Assets/CafeGame/CafeGame.unity
+>>>>>>> 8d05068b9ad56407d774e9d201b9d8476927a80c
     guid: dbd09416a357bb6438191dd602abb179
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
