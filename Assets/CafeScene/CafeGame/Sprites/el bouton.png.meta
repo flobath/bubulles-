@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1ee59395f5db9fc4797abf866730ce0c
+guid: 252447eac715bcc4e89f2a67679f8bc8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1325362981963340744
-    second: 103186857_0
-  - first:
-      213: 4521658008844704601
-    second: 103186857_1
+      213: -3455104001820221690
+    second: el bouton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,35 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 103186857_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 18
-        width: 450
-        height: 451
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cb906a2c92a46210800000000000000
-      internalID: 1325362981963340744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 103186857_1
+      name: el bouton_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 450
-        height: 19
+        width: 300
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95b1df4900820ce30800000000000000
-      internalID: 4521658008844704601
+      spriteID: 60f997d57310d00d0800000000000000
+      internalID: -3455104001820221690
       vertices: []
       indices: 
       edges: []
@@ -159,9 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      103186857_0: 1325362981963340744
-      103186857_1: 4521658008844704601
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,10 +8,10 @@ using UnityEngine.UI;
 public class NextButton : MonoBehaviour
 {
     [SerializeField] private SpawnMenu _spawnMenu;
-    [SerializeField] private List<string> _buttonName;
-    [SerializeField] private GameObject _text;
     [SerializeField] private GameObject _takeOrder;
     [SerializeField] private List<AnswerDropdown> _dropdowns;
+    [SerializeField] private Title _title;
+    protected int _step = 4;
 
     protected void Start()
     {
@@ -20,21 +20,19 @@ public class NextButton : MonoBehaviour
 
     public void nextButton()
     {
-        if (_buttonName.Count == 0)
+        if (_step == 0)
         {
             checkWin();
             return;
         }
-        if (_buttonName.Count == 1)
+        if (_step == 1)
         {
             _spawnMenu.SetActive(false);
             _takeOrder.SetActive(true);
         }
-        TMP_Text text = _text.GetComponent<TMP_Text>();
-        text.text = _buttonName[0];
-        _buttonName.RemoveAt(0);
         _spawnMenu.GenerateGrid();
-
+        _title.nextImage();
+        _step--;
     }
 
     public void checkWin()
