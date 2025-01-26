@@ -9,45 +9,28 @@ public class NextButton : MonoBehaviour
 {
     [SerializeField] private SpawnMenu _spawnMenu;
     [SerializeField] private GameObject _takeOrder;
-    [SerializeField] private List<AnswerDropdown> _dropdowns;
     [SerializeField] private Title _title;
+    [SerializeField] private Title _background;
     protected int _step = 4;
 
     protected void Start()
     {
         nextButton();
+        _background.nextImage();
     }
 
     public void nextButton()
     {
-        if (_step == 0)
-        {
-            checkWin();
-            return;
-        }
+        _spawnMenu.GenerateGrid();
+        _title.nextImage();
         if (_step == 1)
         {
             _spawnMenu.SetActive(false);
             _takeOrder.SetActive(true);
+            _background.nextImage();
+            gameObject.SetActive(false);
         }
-        _spawnMenu.GenerateGrid();
-        _title.nextImage();
         _step--;
     }
 
-    public void checkWin()
-    {
-        int coffee = _dropdowns[0].getSelectedIndex();
-        int milk = _dropdowns[1].getSelectedIndex();
-        int size = _dropdowns[2].getSelectedIndex();
-
-        if (coffee == _spawnMenu.GetGoodAnswer()[0] && milk == _spawnMenu.GetGoodAnswer()[1] && size == _spawnMenu.GetGoodAnswer()[2])
-        {
-            Debug.Log("You win!");
-        }
-        else
-        {
-            Debug.Log("You lose!");
-        }
-    }
 }
