@@ -2885,7 +2885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _images:
-  - {fileID: -3545073877343962784, guid: ed9d89a98e7603f41b8cb916ecc7e5c5, type: 3}
+  - {fileID: -3545073877343962784, guid: 3c1631b9a3d47084387c3479f46fe3fc, type: 3}
   - {fileID: 4033942206699858915, guid: 0df00876fb995da47ac36eef3a1148af, type: 3}
 --- !u!1 &1288012957
 GameObject:
