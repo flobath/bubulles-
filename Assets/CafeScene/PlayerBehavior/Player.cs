@@ -19,7 +19,12 @@ public class Player : MonoBehaviour
     public float anxiety_coef = 5f;
     public float tranquility_coef = 15f;
 
-    public bool dead = false;
+    private bool dead = false;
+
+    [SerializeField]
+    private Sprite chill_sprite;
+    [SerializeField]
+    private Sprite anxious_sprite;
 
     void Awake()
     {
@@ -74,5 +79,11 @@ public class Player : MonoBehaviour
         } else {
             anxiety =  Mathf.Clamp(anxiety + anxiety_coef * Time.deltaTime, min_anxiety, max_anxiety);
         }
-    }        
+
+        if (anxiety > (max_anxiety * 0.65f)) {
+            sprite_rd.sprite = anxious_sprite;
+        } else {
+            sprite_rd.sprite = chill_sprite;
+        }
+    }
 }

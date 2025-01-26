@@ -2274,7 +2274,8 @@ MonoBehaviour:
   min_anxiety: 0
   anxiety_coef: 10
   tranquility_coef: 20
-  dead: 0
+  chill_sprite: {fileID: -908331008314907573, guid: 8c314f49de2b6d943837d85324c7691e, type: 3}
+  anxious_sprite: {fileID: 8466371309575812971, guid: fe63b0327902b194e91791472126beb3, type: 3}
 --- !u!212 &1212663244
 SpriteRenderer:
   m_ObjectHideFlags: 0
