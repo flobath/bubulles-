@@ -7,9 +7,16 @@ public class SpawnMenu : MonoBehaviour
 {
     [SerializeField] private List<int> _width, _height;
     [SerializeField] private Tile _tilePrefab;
-    [SerializeField] private List<string> _tileNames;
+    private Objective _objective;
     protected List<int> _goodAnswer = new List<int>();
     protected List<GameObject> _tiles = new List<GameObject>();
+    private List<string> _tileNames;
+
+    protected void Awake()
+    {
+        _objective = FindObjectOfType<Objective>();
+        _tileNames = _objective.GetMenu();
+    }
 
     public void GenerateGrid() {
         foreach (var tile in _tiles) {
@@ -29,6 +36,9 @@ public class SpawnMenu : MonoBehaviour
             for (int y = 0; y < height; y++) {
                 var SpawnedTile = Instantiate(_tilePrefab, new Vector3(x, y, 0), Quaternion.identity);
                 string tileName = _tileNames[Random.Range(0, tileCount - 1)];
+                if (_objective.GetObjectives().Contains(tileName)) {
+                    _goodAnswer.Add((height - (y + 1)) * width + x + 1);
+                }
                 SpawnedTile.transform.SetParent(transform);
                 RectTransform rt = SpawnedTile.GetComponent (typeof (RectTransform)) as RectTransform;
                 float pos_x = transform.position.x + (rt.rect.width * (x - half_width) * SpawnedTile.transform.localScale.x) + (rt.rect.width / 2 * ((x - half_width) + 1.5f) * SpawnedTile.transform.localScale.x); //
@@ -41,7 +51,6 @@ public class SpawnMenu : MonoBehaviour
                 _tiles.Add(SpawnedTile.gameObject);
             }
         }
-        _goodAnswer.Add(0);
     }
 
     public void SetActive(bool pActive) {
