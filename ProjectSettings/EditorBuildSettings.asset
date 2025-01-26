@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CafeGame/CafeGame.unity
     guid: dbd09416a357bb6438191dd602abb179
+  - enabled: 1
+    path: Assets/GameOver.unity
+    guid: cd3a5f741add5b94a8e152a7be0398e4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

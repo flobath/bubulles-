@@ -328,6 +328,7 @@ RectTransform:
   m_LocalScale: {x: 4.8, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 782755386}
   - {fileID: 137286849}
   m_Father: {fileID: 1831935401}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1648,15 +1649,15 @@ RectTransform:
   m_GameObject: {fileID: 782755385}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.20833333, y: 1.6666666, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1831935401}
+  m_Father: {fileID: 132492686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.54}
-  m_AnchoredPosition: {x: -697.8, y: 464.7}
-  m_SizeDelta: {x: 437, y: -24.325073}
+  m_AnchoredPosition: {x: 0.04168701, y: 0.16674805}
+  m_SizeDelta: {x: 437, y: 14.874935}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &782755387
 MonoBehaviour:
@@ -2276,6 +2277,7 @@ MonoBehaviour:
   tranquility_coef: 20
   chill_sprite: {fileID: -908331008314907573, guid: 8c314f49de2b6d943837d85324c7691e, type: 3}
   anxious_sprite: {fileID: 8466371309575812971, guid: fe63b0327902b194e91791472126beb3, type: 3}
+  healthbar: {fileID: 132492685}
 --- !u!212 &1212663244
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3034,7 +3036,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 782755386}
   - {fileID: 132492686}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

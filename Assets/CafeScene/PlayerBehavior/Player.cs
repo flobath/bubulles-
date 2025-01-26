@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -25,6 +26,10 @@ public class Player : MonoBehaviour
     private Sprite chill_sprite;
     [SerializeField]
     private Sprite anxious_sprite;
+
+    [SerializeField]
+    private GameObject healthbar;
+
 
     void Awake()
     {
@@ -73,6 +78,8 @@ public class Player : MonoBehaviour
     {
         if (anxiety >= max_anxiety) {
             dead = true;
+            healthbar.SetActive(false);
+            SceneManager.LoadScene("GameOver");
         }
         if (_inSafeZone) {
             anxiety =  Mathf.Clamp(anxiety - tranquility_coef * Time.deltaTime, min_anxiety, max_anxiety);

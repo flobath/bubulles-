@@ -1,43 +1,40 @@
 fileFormatVersion: 2
-guid: a6bb6be7e1b1dd544bee9b416082e60b
+guid: 984ca909a045f9b4b957d7a1f546234d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5044665212784897073
-    second: anxiety_level_0
+      213: -2648135314898872602
+    second: die_message_0
   - first:
-      213: 8913489934710218133
-    second: anxiety_level_1
+      213: 3136214288419885537
+    second: die_message_1
   - first:
-      213: 4157709649441162749
-    second: anxiety_level_2
+      213: 5314937843114104503
+    second: die_message_2
   - first:
-      213: -6034306456381572685
-    second: anxiety_level_3
+      213: -8970353036111744905
+    second: die_message_3
   - first:
-      213: -6101757867176984947
-    second: anxiety_level_4
+      213: -6132753884094922373
+    second: die_message_4
   - first:
-      213: -9115836645981582072
-    second: anxiety_level_5
+      213: -6893926986377426638
+    second: die_message_5
   - first:
-      213: 6361627474039944420
-    second: anxiety_level_6
+      213: 1829099385507969455
+    second: die_message_6
   - first:
-      213: -5029640601546598630
-    second: anxiety_level_7
+      213: -3304784290262826191
+    second: die_message_7
   - first:
-      213: -6272300817183463200
-    second: anxiety_level_8
+      213: 3919454501120237878
+    second: die_message_8
   - first:
-      213: 8004535995883659612
-    second: anxiety_level_9
+      213: 388374849673909746
+    second: die_message_9
   - first:
-      213: -6542108362175988547
-    second: anxiety_level_10
-  - first:
-      213: -5833144155005376904
-    second: anxiety_level_11
+      213: -4428456066414376844
+    second: die_message_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -133,211 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anxiety_level_0
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 5
-        width: 824
-        height: 152
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13c60d28840420640800000000000000
-      internalID: 5044665212784897073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_1
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 155
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59d1c63bed313bb70800000000000000
-      internalID: 8913489934710218133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_2
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 131
-        width: 26
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df5872ec5e623b930800000000000000
-      internalID: 4157709649441162749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_3
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 149
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b9b781cf36d14ca0800000000000000
-      internalID: -6034306456381572685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_4
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 155
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8e787d5c83325ba0800000000000000
-      internalID: -6101757867176984947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_5
-      rect:
-        serializedVersion: 2
-        x: 851
-        y: 89
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80d87c54eda0e7180800000000000000
-      internalID: -9115836645981582072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_6
+      name: die_message_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 71
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e434877b7a094850800000000000000
-      internalID: 6361627474039944420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_7
-      rect:
-        serializedVersion: 2
-        x: 845
-        y: 71
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a17dee46580233ab0800000000000000
-      internalID: -5029640601546598630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_8
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 53
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e8236b83af44f8a0800000000000000
-      internalID: -6272300817183463200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_9
-      rect:
-        serializedVersion: 2
-        x: 185
         y: 0
-        width: 8
-        height: 7
+        width: 157
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5129721413d51f60800000000000000
-      internalID: 8004535995883659612
+      spriteID: 6e6194626feef3bd0800000000000000
+      internalID: -2648135314898872602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_10
+      name: die_message_1
       rect:
         serializedVersion: 2
-        x: 251
-        y: 0
-        width: 8
-        height: 7
+        x: 173
+        y: 5
+        width: 86
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbc336e2b13c535a0800000000000000
-      internalID: -6542108362175988547
+      spriteID: 1e195c86742168b20800000000000000
+      internalID: 3136214288419885537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_11
+      name: die_message_2
       rect:
         serializedVersion: 2
-        x: 359
-        y: 0
-        width: 8
-        height: 13
+        x: 263
+        y: 5
+        width: 26
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +189,184 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 876224ddb428c0fa0800000000000000
-      internalID: -5833144155005376904
+      spriteID: 7b6d81efec372c940800000000000000
+      internalID: 5314937843114104503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 5
+        width: 62
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77076bcc077e28380800000000000000
+      internalID: -8970353036111744905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 5
+        width: 146
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7100abc5d414eaa0800000000000000
+      internalID: -6132753884094922373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_5
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 0
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2398e757ee9d350a0800000000000000
+      internalID: -6893926986377426638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_6
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 5
+        width: 140
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9761c3334426910800000000000000
+      internalID: 1829099385507969455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_7
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 5
+        width: 74
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133c79f823c0322d0800000000000000
+      internalID: -3304784290262826191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_8
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 152
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631e3944a13b46630800000000000000
+      internalID: 3919454501120237878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_9
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 0
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5528a3ed8c36500800000000000000
+      internalID: 388374849673909746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die_message_10
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 5
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47882f9aba6fa82c0800000000000000
+      internalID: -4428456066414376844
       vertices: []
       indices: 
       edges: []
@@ -400,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      anxiety_level_0: 5044665212784897073
-      anxiety_level_1: 8913489934710218133
-      anxiety_level_10: -6542108362175988547
-      anxiety_level_11: -5833144155005376904
-      anxiety_level_2: 4157709649441162749
-      anxiety_level_3: -6034306456381572685
-      anxiety_level_4: -6101757867176984947
-      anxiety_level_5: -9115836645981582072
-      anxiety_level_6: 6361627474039944420
-      anxiety_level_7: -5029640601546598630
-      anxiety_level_8: -6272300817183463200
-      anxiety_level_9: 8004535995883659612
+      die_message_0: -2648135314898872602
+      die_message_1: 3136214288419885537
+      die_message_10: -4428456066414376844
+      die_message_2: 5314937843114104503
+      die_message_3: -8970353036111744905
+      die_message_4: -6132753884094922373
+      die_message_5: -6893926986377426638
+      die_message_6: 1829099385507969455
+      die_message_7: -3304784290262826191
+      die_message_8: 3919454501120237878
+      die_message_9: 388374849673909746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
