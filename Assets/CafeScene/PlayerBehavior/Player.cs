@@ -13,9 +13,13 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb2D;
     private SpriteRenderer sprite_rd;
 
-    public float health = 100.0f;
-    public float depletion_coef = 2f;
-    public float increase_coef = 3f;
+    public float anxiety = 0f;
+    public float max_anxiety = 100.0f;
+    public float min_anxiety = 0f;
+    public float anxiety_coef = 5f;
+    public float tranquility_coef = 15f;
+
+    public bool dead = false;
 
     void Awake()
     {
@@ -61,17 +65,14 @@ public class Player : MonoBehaviour
     }
 
     void Update ()
-    {   
-        if (_inSafeZone) {
-            if (health >= 100) {
-                health = 100;
-            } else {
-                health -= increase_coef * Time.deltaTime;
-            }
-        } else {
-            health -= depletion_coef * Time.deltaTime;
+    {
+        if (anxiety >= max_anxiety) {
+            dead = true;
         }
-
-        // Debug.Log(health);
+        if (_inSafeZone) {
+            anxiety =  Mathf.Clamp(anxiety - tranquility_coef * Time.deltaTime, min_anxiety, max_anxiety);
+        } else {
+            anxiety =  Mathf.Clamp(anxiety + anxiety_coef * Time.deltaTime, min_anxiety, max_anxiety);
+        }
     }        
 }
