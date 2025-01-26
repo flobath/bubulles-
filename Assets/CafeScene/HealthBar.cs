@@ -16,7 +16,7 @@ public class HealthBar : MonoBehaviour
 
     void Update()
     {
-        float healthBarSize = Mathf.Clamp(player_script.anxiety, 0, 100);;
+        float healthBarSize = Mathf.Clamp(player_script.anxiety, 0, 95.75f);;
     
         _transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, healthBarSize);
     }
