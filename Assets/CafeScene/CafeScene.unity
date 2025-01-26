@@ -2272,7 +2272,7 @@ MonoBehaviour:
   anxiety: 0
   max_anxiety: 100
   min_anxiety: 0
-  anxiety_coef: 10
+  anxiety_coef: 2
   tranquility_coef: 20
   chill_sprite: {fileID: -908331008314907573, guid: 8c314f49de2b6d943837d85324c7691e, type: 3}
   anxious_sprite: {fileID: 8466371309575812971, guid: fe63b0327902b194e91791472126beb3, type: 3}
@@ -2371,6 +2371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27597a97bd3e2824e84e56e8a14eac6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: Player
 --- !u!1 &1399448254
 GameObject:
   m_ObjectHideFlags: 0
@@ -3055,6 +3056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27597a97bd3e2824e84e56e8a14eac6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: Canvas
 --- !u!1 &2013886241
 GameObject:
   m_ObjectHideFlags: 0

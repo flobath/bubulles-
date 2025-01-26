@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: a6bb6be7e1b1dd544bee9b416082e60b
+guid: 9bdd513aa8ff7d54f8d536c41bde122d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5044665212784897073
-    second: anxiety_level_0
+      213: 9050663618226373593
+    second: el coffee_0
   - first:
-      213: 8913489934710218133
-    second: anxiety_level_1
+      213: -3024315417730590233
+    second: el coffee_1
   - first:
-      213: 4157709649441162749
-    second: anxiety_level_2
+      213: -4694074574661026440
+    second: el coffee_2
   - first:
-      213: -6034306456381572685
-    second: anxiety_level_3
+      213: 1776726516908009990
+    second: el coffee_3
   - first:
-      213: -6101757867176984947
-    second: anxiety_level_4
+      213: -7261268964579834021
+    second: el coffee_4
   - first:
-      213: -9115836645981582072
-    second: anxiety_level_5
+      213: -4066922891674404747
+    second: el coffee_5
   - first:
-      213: 6361627474039944420
-    second: anxiety_level_6
+      213: -2690271915371810194
+    second: el coffee_6
   - first:
-      213: -5029640601546598630
-    second: anxiety_level_7
+      213: 7661889056448994341
+    second: el coffee_7
   - first:
-      213: -6272300817183463200
-    second: anxiety_level_8
+      213: 999500561946102370
+    second: el coffee_8
   - first:
-      213: 8004535995883659612
-    second: anxiety_level_9
+      213: 1700741722752102170
+    second: el coffee_9
   - first:
-      213: -6542108362175988547
-    second: anxiety_level_10
+      213: 1575986776202422985
+    second: el coffee_10
   - first:
-      213: -5833144155005376904
-    second: anxiety_level_11
+      213: 6940445136738152097
+    second: el coffee_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,7 +79,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -133,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anxiety_level_0
+      name: el coffee_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 5
-        width: 824
-        height: 152
+        x: 179
+        y: 83
+        width: 62
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13c60d28840420640800000000000000
-      internalID: 5044665212784897073
+      spriteID: 9d34fe9bb9a6a9d70800000000000000
+      internalID: 9050663618226373593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_1
+      name: el coffee_1
       rect:
         serializedVersion: 2
-        x: 71
-        y: 155
-        width: 8
-        height: 8
+        x: 245
+        y: 83
+        width: 128
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59d1c63bed313bb70800000000000000
-      internalID: 8913489934710218133
+      spriteID: 7e95e6da6297706d0800000000000000
+      internalID: -3024315417730590233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_2
+      name: el coffee_2
       rect:
         serializedVersion: 2
-        x: 239
-        y: 131
-        width: 26
-        height: 37
+        x: 377
+        y: 83
+        width: 116
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df5872ec5e623b930800000000000000
-      internalID: 4157709649441162749
+      spriteID: 87df22c6b0c4bdeb0800000000000000
+      internalID: -4694074574661026440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_3
+      name: el coffee_3
       rect:
         serializedVersion: 2
-        x: 323
-        y: 149
-        width: 8
-        height: 14
+        x: 509
+        y: 83
+        width: 56
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,130 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b9b781cf36d14ca0800000000000000
-      internalID: -6034306456381572685
+      spriteID: 60aa1578a5338a810800000000000000
+      internalID: 1776726516908009990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_4
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 155
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8e787d5c83325ba0800000000000000
-      internalID: -6101757867176984947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_5
-      rect:
-        serializedVersion: 2
-        x: 851
-        y: 89
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80d87c54eda0e7180800000000000000
-      internalID: -9115836645981582072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_6
+      name: el coffee_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 71
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e434877b7a094850800000000000000
-      internalID: 6361627474039944420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_7
-      rect:
-        serializedVersion: 2
-        x: 845
-        y: 71
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a17dee46580233ab0800000000000000
-      internalID: -5029640601546598630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_8
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 53
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e8236b83af44f8a0800000000000000
-      internalID: -6272300817183463200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_9
-      rect:
-        serializedVersion: 2
-        x: 185
         y: 0
-        width: 8
-        height: 7
+        width: 121
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5129721413d51f60800000000000000
-      internalID: 8004535995883659612
+      spriteID: b5786ab395aca3b90800000000000000
+      internalID: -7261268964579834021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_10
+      name: el coffee_5
       rect:
         serializedVersion: 2
-        x: 251
+        x: 131
         y: 0
-        width: 8
-        height: 7
+        width: 62
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbc336e2b13c535a0800000000000000
-      internalID: -6542108362175988547
+      spriteID: 578b7d07d236f87c0800000000000000
+      internalID: -4066922891674404747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_11
+      name: el coffee_6
       rect:
         serializedVersion: 2
-        x: 359
+        x: 197
         y: 0
-        width: 8
-        height: 13
+        width: 56
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +280,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 876224ddb428c0fa0800000000000000
-      internalID: -5833144155005376904
+      spriteID: e62bd0752fb3aaad0800000000000000
+      internalID: -2690271915371810194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el coffee_7
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c581e908f745a60800000000000000
+      internalID: 7661889056448994341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el coffee_8
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ac99b2770fedd00800000000000000
+      internalID: 999500561946102370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el coffee_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 176
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f235ff59f3a9710800000000000000
+      internalID: 1700741722752102170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el coffee_10
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 116
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca224e7f970fd510800000000000000
+      internalID: 1575986776202422985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el coffee_11
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae6d5e641a615060800000000000000
+      internalID: 6940445136738152097
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      anxiety_level_0: 5044665212784897073
-      anxiety_level_1: 8913489934710218133
-      anxiety_level_10: -6542108362175988547
-      anxiety_level_11: -5833144155005376904
-      anxiety_level_2: 4157709649441162749
-      anxiety_level_3: -6034306456381572685
-      anxiety_level_4: -6101757867176984947
-      anxiety_level_5: -9115836645981582072
-      anxiety_level_6: 6361627474039944420
-      anxiety_level_7: -5029640601546598630
-      anxiety_level_8: -6272300817183463200
-      anxiety_level_9: 8004535995883659612
+      el coffee_0: 9050663618226373593
+      el coffee_1: -3024315417730590233
+      el coffee_10: 1575986776202422985
+      el coffee_11: 6940445136738152097
+      el coffee_2: -4694074574661026440
+      el coffee_3: 1776726516908009990
+      el coffee_4: -7261268964579834021
+      el coffee_5: -4066922891674404747
+      el coffee_6: -2690271915371810194
+      el coffee_7: 7661889056448994341
+      el coffee_8: 999500561946102370
+      el coffee_9: 1700741722752102170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

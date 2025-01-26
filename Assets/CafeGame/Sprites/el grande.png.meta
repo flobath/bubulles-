@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: a6bb6be7e1b1dd544bee9b416082e60b
+guid: 6075568bf1e5a3a4bb37f0c0145324f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5044665212784897073
-    second: anxiety_level_0
+      213: 7221201970936329646
+    second: el grande_0
   - first:
-      213: 8913489934710218133
-    second: anxiety_level_1
+      213: -1324292009452441248
+    second: el grande_1
   - first:
-      213: 4157709649441162749
-    second: anxiety_level_2
+      213: 1324780078652023515
+    second: el grande_2
   - first:
-      213: -6034306456381572685
-    second: anxiety_level_3
+      213: -2446215484939400554
+    second: el grande_3
   - first:
-      213: -6101757867176984947
-    second: anxiety_level_4
+      213: 9049106959117691624
+    second: el grande_4
   - first:
-      213: -9115836645981582072
-    second: anxiety_level_5
+      213: -5446886760306983641
+    second: el grande_5
   - first:
-      213: 6361627474039944420
-    second: anxiety_level_6
+      213: 4699763581705523294
+    second: el grande_6
   - first:
-      213: -5029640601546598630
-    second: anxiety_level_7
+      213: -3379995555013988002
+    second: el grande_7
   - first:
-      213: -6272300817183463200
-    second: anxiety_level_8
+      213: -1133023677587185137
+    second: el grande_8
   - first:
-      213: 8004535995883659612
-    second: anxiety_level_9
-  - first:
-      213: -6542108362175988547
-    second: anxiety_level_10
-  - first:
-      213: -5833144155005376904
-    second: anxiety_level_11
+      213: 6600520844750739639
+    second: el grande_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,7 +73,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -133,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anxiety_level_0
+      name: el grande_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 5
-        width: 824
-        height: 152
+        x: 47
+        y: 83
+        width: 62
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13c60d28840420640800000000000000
-      internalID: 5044665212784897073
+      spriteID: ea5b209deecd63460800000000000000
+      internalID: 7221201970936329646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_1
+      name: el grande_1
       rect:
         serializedVersion: 2
-        x: 71
-        y: 155
-        width: 8
-        height: 8
+        x: 113
+        y: 83
+        width: 128
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59d1c63bed313bb70800000000000000
-      internalID: 8913489934710218133
+      spriteID: 061f2bd0f6b2f9de0800000000000000
+      internalID: -1324292009452441248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_2
+      name: el grande_2
       rect:
         serializedVersion: 2
-        x: 239
-        y: 131
-        width: 26
-        height: 37
+        x: 245
+        y: 83
+        width: 116
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df5872ec5e623b930800000000000000
-      internalID: 4157709649441162749
+      spriteID: bd261996670926210800000000000000
+      internalID: 1324780078652023515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_3
+      name: el grande_3
       rect:
         serializedVersion: 2
-        x: 323
-        y: 149
-        width: 8
-        height: 14
+        x: 377
+        y: 83
+        width: 56
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,130 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b9b781cf36d14ca0800000000000000
-      internalID: -6034306456381572685
+      spriteID: 69a80202afb4d0ed0800000000000000
+      internalID: -2446215484939400554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_4
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 155
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8e787d5c83325ba0800000000000000
-      internalID: -6101757867176984947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_5
-      rect:
-        serializedVersion: 2
-        x: 851
-        y: 89
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80d87c54eda0e7180800000000000000
-      internalID: -9115836645981582072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_6
+      name: el grande_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 71
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e434877b7a094850800000000000000
-      internalID: 6361627474039944420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_7
-      rect:
-        serializedVersion: 2
-        x: 845
-        y: 71
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a17dee46580233ab0800000000000000
-      internalID: -5029640601546598630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_8
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 53
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e8236b83af44f8a0800000000000000
-      internalID: -6272300817183463200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anxiety_level_9
-      rect:
-        serializedVersion: 2
-        x: 185
         y: 0
-        width: 8
-        height: 7
+        width: 121
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5129721413d51f60800000000000000
-      internalID: 8004535995883659612
+      spriteID: 8eaa9b8c5d2e49d70800000000000000
+      internalID: 9049106959117691624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_10
+      name: el grande_5
       rect:
         serializedVersion: 2
-        x: 251
+        x: 131
         y: 0
-        width: 8
-        height: 7
+        width: 62
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbc336e2b13c535a0800000000000000
-      internalID: -6542108362175988547
+      spriteID: 72dbf10b955c864b0800000000000000
+      internalID: -5446886760306983641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anxiety_level_11
+      name: el grande_6
       rect:
         serializedVersion: 2
-        x: 359
+        x: 197
         y: 0
-        width: 8
-        height: 13
+        width: 56
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +274,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 876224ddb428c0fa0800000000000000
-      internalID: -5833144155005376904
+      spriteID: e5010efb31ae83140800000000000000
+      internalID: 4699763581705523294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el grande_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51fdf063f7d711d0800000000000000
+      internalID: -3379995555013988002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el grande_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f022f4fd7f0b640f0800000000000000
+      internalID: -1133023677587185137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el grande_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8ddebbcb2c99b50800000000000000
+      internalID: 6600520844750739639
       vertices: []
       indices: 
       edges: []
@@ -400,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      anxiety_level_0: 5044665212784897073
-      anxiety_level_1: 8913489934710218133
-      anxiety_level_10: -6542108362175988547
-      anxiety_level_11: -5833144155005376904
-      anxiety_level_2: 4157709649441162749
-      anxiety_level_3: -6034306456381572685
-      anxiety_level_4: -6101757867176984947
-      anxiety_level_5: -9115836645981582072
-      anxiety_level_6: 6361627474039944420
-      anxiety_level_7: -5029640601546598630
-      anxiety_level_8: -6272300817183463200
-      anxiety_level_9: 8004535995883659612
+      el grande_0: 7221201970936329646
+      el grande_1: -1324292009452441248
+      el grande_2: 1324780078652023515
+      el grande_3: -2446215484939400554
+      el grande_4: 9049106959117691624
+      el grande_5: -5446886760306983641
+      el grande_6: 4699763581705523294
+      el grande_7: -3379995555013988002
+      el grande_8: -1133023677587185137
+      el grande_9: 6600520844750739639
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
