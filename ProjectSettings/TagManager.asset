@@ -6,6 +6,7 @@ TagManager:
   tags:
   - InteractionSquare
   - SafeZone
+  - Barista
   layers:
   - Default
   - TransparentFX

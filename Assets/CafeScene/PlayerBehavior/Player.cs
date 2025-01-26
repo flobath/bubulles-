@@ -72,6 +72,6 @@ public class Player : MonoBehaviour
             health -= depletion_coef * Time.deltaTime;
         }
 
-        Debug.Log(health);
+        // Debug.Log(health);
     }        
 }
